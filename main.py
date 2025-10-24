@@ -8,7 +8,7 @@ import random
 
 computer= random.choice([-1, 0, 1])
 youstr= input("Enter Your Choice:")
-youDict={"stone":1,"saper":-1,"scissor":0}
+youDict={"stone":1,"paper":-1,"scissor":0}
 reverseDict={1:"stone",-1:"paper",0:"scissor"}
 you = youDict[youstr]
 
